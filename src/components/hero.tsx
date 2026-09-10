@@ -128,17 +128,14 @@ export function Hero() {
               From inference to training no infrastructure to manage.
             </p>
             <div className="flex gap-3">
-              <Button
-                render={<Link href="/sign-up" />}
-                className="h-11 rounded-full px-6"
-              >
+              <Button render={<Link href="/sign-up" />} className="h-9 px-6">
                 Get started
                 <ArrowRight className="transition-transform duration-200 ease-out motion-safe:group-hover/button:translate-x-0.5" />
               </Button>
               <Button
                 variant="outline"
                 render={<Link href="/sign-in" />}
-                className="h-11 rounded-full px-6"
+                className="h-9 px-6"
               >
                 Contact us
               </Button>
